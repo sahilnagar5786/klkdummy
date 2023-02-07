@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/klkdummy/static/css/main.82733b2b.css",
-    "main.js": "/klkdummy/static/js/main.d6f1eb48.js",
+    "main.css": "/klkdummy/static/css/main.c81e1ae5.css",
+    "main.js": "/klkdummy/static/js/main.65a9a1d9.js",
     "static/media/roofsolar3.mp4": "/klkdummy/static/media/roofsolar3.fd41f629dfd69ad8e4e8.mp4",
     "static/media/roofsolar2.mp4": "/klkdummy/static/media/roofsolar2.116541cfe35c1bd3cabf.mp4",
     "static/media/csr4.jpg": "/klkdummy/static/media/csr4.fa3bbd23aca51b590263.jpg",
@@ -83,11 +83,11 @@
     "static/media/energylogo8.webp": "/klkdummy/static/media/energylogo8.2e8502da683206966646.webp",
     "static/media/energylogo5.webp": "/klkdummy/static/media/energylogo5.ac536588bb542823ad91.webp",
     "index.html": "/klkdummy/index.html",
-    "main.82733b2b.css.map": "/klkdummy/static/css/main.82733b2b.css.map",
-    "main.d6f1eb48.js.map": "/klkdummy/static/js/main.d6f1eb48.js.map"
+    "main.c81e1ae5.css.map": "/klkdummy/static/css/main.c81e1ae5.css.map",
+    "main.65a9a1d9.js.map": "/klkdummy/static/js/main.65a9a1d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.82733b2b.css",
-    "static/js/main.d6f1eb48.js"
+    "static/css/main.c81e1ae5.css",
+    "static/js/main.65a9a1d9.js"
   ]
 }
