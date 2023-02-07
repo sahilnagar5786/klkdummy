@@ -98,7 +98,7 @@ const Home = () => {
       <h1 className="head">About Us</h1>
     </div>
     <img className="img1 rounded aos-init " data-aos="fade-left" data-aos-duration="1000" src={chooseus} alt="img.." />
-    <div className="whole aos-init " >
+    <div className="whole aos-init" >
       <div className="about">
         <h2 className="head2">30+ Years Experience In<br />Different Industry.</h2>
         <div className="paras">
