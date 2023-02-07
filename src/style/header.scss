@@ -1,0 +1,95 @@
+//  body{
+//   background-color:#ff6347;
+// }
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+z-index:1;
+}
+
+.logok{
+    padding: 10px;
+    transition: transform .6s;
+    width: 125px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .logok:hover{
+    transform: scale(1.1); 
+  } 
+
+ul{
+  word-spacing: 0.125rem;
+  padding:5px;
+  letter-spacing: 1px;
+  font-size: 19px;  
+}
+
+ul div{
+  list-style:none;
+  margin:0px 100px 0px 0px;
+  transition:2.0s;
+  font-weight: 600;
+}
+
+ul div a{
+  position:relative;
+  text-decoration:none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform:uppercase;
+  
+}
+
+ul:hover div a{
+  transform:scale(1.0);
+  opacity:0.2;
+  filter:blur(0.5px);
+  
+}
+
+ul div a:hover{
+  transform:scale(1);
+  opacity:1;
+  filter:blur(0);
+  text-decoration:none;
+  color:#fff;
+}
+
+ul div a:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#d25a78;;
+  transition:0.9s;
+  transform-origin:right;
+  transform:scaleX(0);
+  z-index:-1;
+}
+
+ul div a:hover:before{
+  transition:transform 0.5s;
+  transform-origin:unset;
+  transform:scaleX(0.9);
+}
+
+// .navbar{
+//   position: fixed;
+//   width: 100%;
+//   top: 0;
+// }
+
+.container-fluid{
+  margin-bottom: -15px;
+  margin-top: -20px;
+}
+
+.navbar-nav{
+  margin-top: 7px;
+}

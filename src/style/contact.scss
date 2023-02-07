@@ -1,0 +1,95 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  background-color:#e0e8f7e7;
+  align-items: center;
+  >main{
+    background-color:#f2f4f8e7;
+    height: 35rem;
+    width: 80%;
+    padding: 3rem;
+    border-radius: 0 200px 200px 0;
+
+    >form{
+        margin: 4rem 0rem 0rem 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+
+        >div{
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: 0.5rem;
+            width: 60%;
+            >label{
+                font: 400 1.2rem ;
+                width: 20%;
+                margin: 0 1rem;
+            }
+            >input{
+                align-self:stretch;
+                width: 80%;
+                padding: 1rem;
+                border-radius: 5px;
+                border: 1px solid rgba(123,123,123,0.6);
+                outline: none;
+            }
+        }
+        >button{
+            margin: 3rem, 0;
+            padding: 0.7rem;
+            border: none;
+            border-radius: 5px;
+            background-color:darkgoldenrod;
+            color: whitesmoke;
+            width: 200px;
+            font: 500 1rem ;
+            &:hover{
+                opacity: 0.9;
+            }
+        }
+    }
+  }  
+ }
+
+ .anim{
+    // margin-top: 80px;
+  object-fit:cover;
+  width: 100vw;
+  height: 80vh;
+ }
+ 
+ .breadcrumb{
+     font-size: 26px;
+     position: absolute;
+     margin-top: 40px;
+     margin-left: 36px;
+     color: whitesmoke;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .con{
+   height: 61vh;
+   width: 38vw;
+   position: absolute;
+   object-fit: cover;
+   left: 145px;
+   opacity: 0.5;
+   margin-top: 300px;
+}
+.con:hover{
+    opacity: 1.0;
+}
+
+.contactus{
+    font-size: 40px;
+    font-weight: 400;
+    font-family:"roboto";
+    margin-left: 350px;
+}

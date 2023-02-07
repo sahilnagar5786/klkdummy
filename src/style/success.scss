@@ -1,0 +1,74 @@
+.mains{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    > h1{
+        font-size: 45px;
+        position: absolute;
+        margin-top: 85px;
+        margin-left: 33px;
+        color: white;
+        font-weight: 550;
+    }
+    > .enee{
+        height: 85vh;
+        width: 100vw;
+        object-fit:fill;
+    }
+
+}
+
+.next{
+    margin-top: 60px;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    >h6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 550;
+    }
+    >p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+.successimg{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    > img{
+        object-fit: cover;
+        height:45vh ;
+        width: 30vw;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+.suc{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(90%);
+    // -webkit-transition : all 1s ease;
+    }
+    
+    .suc:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.suc:hover{
+    transform: scale(1.05);
+}

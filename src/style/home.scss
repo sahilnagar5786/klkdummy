@@ -1,0 +1,270 @@
+.carousel-inner {
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.imgs {
+  height: 85vh;
+}
+
+.carousel-caption {
+  font-size: 25px;
+  top: 0;
+
+}
+
+.carousel-caption h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(44, 38, 29);
+  background-color: rgba(40, 39, 39, 0.17);
+}
+
+.carousel-caption p {
+  font-size: 25px;
+  color: rgb(62, 58, 51);
+  font-weight: 500;
+  background-color: rgba(40, 39, 39, 0.17);
+
+}
+
+.carousel-control-prev {
+  opacity: 0.0;
+}
+
+.carousel-control-next {
+  opacity: 0.0;
+}
+
+
+.containera{
+font-size: 21px;
+font-weight: 500;
+color: rgb(62, 58, 51);
+}
+.container-xxl{
+  background:rgb(217, 206, 206);
+}
+
+.mb-0{
+  font-size: 35px;
+  margin-left: 47px;
+
+}
+.mb-2{
+  font-size: 22px;
+  margin-top: -12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mb-4{ 
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+.d-flex{
+  margin-top: -2rem;
+}
+
+.col-md-6{
+  visibility: visible; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.gi{
+  font-size: 45px;
+  color: rgb(117, 102, 61);
+  position: absolute;
+  margin-left: -60px;
+  margin-top: -7px;
+}
+.gi1{
+  font-size: 53px;
+  color: rgb(117, 102, 61);
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -7px; 
+}
+.gi_1{
+  margin-left: 90px;
+}
+.col-md-6:hover{
+  transform: scale(1.2);
+}
+
+/*-------ABOUT US--------*/
+
+.us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.head{
+font-size: 50px;
+font-weight: 900;
+text-transform: uppercase;
+}
+
+.img1{
+  margin-top: 50px;
+  position: relative;
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 55vw;
+  height: 100vh;
+  margin-left: auto;
+}
+
+.about{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+}
+
+.head2{
+  font-size: 40px;
+  position: relative;
+  font-weight: 700;
+  margin-top: -450px;
+  margin-left: 40px;
+}
+.head2:hover{
+  transform: scale(1.1);
+}
+
+.paras{
+  display: block;
+  margin-top: -335px;
+  margin-left: 70px;
+  font-size: 20px;
+  position: absolute;
+  font-weight: 300;
+}
+.para1{
+  position: relative;
+  margin-top: auto;  
+  line-height: 2;
+}
+
+.para2{
+  position: relative;
+  margin-top: auto;
+  line-height: 2;
+}
+.para3{
+  position: relative;
+  margin-top: auto;
+  line-height: 2;
+}
+
+.cards{
+  width: 22rem;
+  position: absolute;
+  margin: -170px 0px 0px 40px;
+  background-color: #f2f4f8e7;
+ border-radius: unset;
+ border: 0;
+
+}
+
+.card-text{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+   font-weight:100 !important;
+}
+
+.whole{
+margin-top: -140px;
+}
+
+.bs{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -30px;
+}
+.paras:hover{
+  transform: scale(1.1);
+}
+
+
+.containersx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  margin-top: 250px
+}
+.qw{
+  margin-top: -80px !important;
+}
+
+.card1{
+  box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
+.card2{
+  box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
+.card3{
+  box-shadow: 10px 10px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.divi{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+  align-items: center;
+  margin-left: 370px;
+}
+.clean{
+  font-size: 50px;
+  font-weight: 650;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.container{
+  margin-top: 30px;
+}
+
+.card-title{
+line-height: 3;
+font-size: 27px;
+font-weight: 700;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card1{
+  width: 23rem;
+  border: 1px solid #4a432deb;
+  border-radius: 15px;
+  margin-right: 8px;
+}
+.card2{
+  width: 23rem;
+  border: 1px solid #4a432deb;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.card3{
+  width: 23rem;
+  border: 1px solid #4a432deb;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.btn{
+  margin-top: 15px;
+}
+.card-img-top {
+  width: 110%;
+  height: 18vw;
+  object-fit: cover;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
+
+

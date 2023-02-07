@@ -1,0 +1,115 @@
+.soal{
+    // margin-top: 61px;
+    object-fit: fill;
+    width: 100%;
+    height: 88vh;
+}
+
+.corp{
+    margin-left: 2rem;
+    margin-top: -5rem;
+    position: absolute;
+    font-size: 46px;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.apple{
+    max-width: 1300px;
+    background-color:#d2cfcfb3;
+    color: rgb(59, 41, 41);
+}
+.video-row{
+    width: 48vw;
+    height: 80vh;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    border: 1px solid rgba(0, 0, 0, 0.764);
+    border-radius: 7px;
+}
+.video-row:hover{
+    opacity: 1;
+}
+.jkl{
+    margin-top: 65px;
+}
+.csr-libox{
+    margin-top: -10px;
+}
+.tex{
+    font-size: 20px;
+    font-weight: 450;
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 80px;
+}
+.build{
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    font-weight: 600;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.gif{
+    background-color: black;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin-top: 5px;
+}
+.back{
+    position: absolute;
+}
+.sreenimg{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 68px;
+    margin-left: -30px;
+}
+.sreenimg:hover{
+    transform: scale(1.05);
+}
+
+.main{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top: 130px;
+    > h1{
+        font-size: 23px;
+        font-weight: 500;
+        margin-left: 95px;
+    }
+    > h2{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+.images{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    > img{
+        object-fit: cover;
+        height:45vh ;
+        width: 30vw;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+.images{ visibility: hidden; }
+
+.images > * { visibility: visible; }
+
+.images > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+
+.images:hover > * { opacity: 0.7; transform: scale(0.9); }
+
+.images > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+

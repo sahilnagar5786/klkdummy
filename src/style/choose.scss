@@ -1,0 +1,64 @@
+.position-absolute{
+ object-fit: cover;
+}
+
+.col-lg-6{
+    min-height: 300px; 
+}
+.ts{
+    margin-top: 50px !important;
+}
+
+.mb-1{
+    font-size: 20px;
+    font-weight: 400;
+}
+// .coin{
+//     font-size: 25px;
+// }
+.coin:hover{
+    transform: scale(1.3);
+}
+
+.sticker{
+    font-size: 35px;
+}
+.jh{
+    font-weight: 400 !important;
+    opacity: 0.9;
+    font-size: 20px;
+}
+.comp{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.px-lg-0{
+    margin-top: 10px;
+} 
+.co{
+    background-color: rgb(217, 206, 206);
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.pb-4{
+  color: darkgoldenrod;
+  font-size: 25px;
+  font-weight: 500 !important;
+}
+
+.comp:hover{
+    transform: scale(1.1);
+}
+.jh:hover{
+    transform: scale(1.1);
+}
+
+.p-lg-5{
+    margin-top: -110px !important;
+    margin-bottom: -10px;
+}
+.position-absolute{
+    margin-top: -90px;
+}
